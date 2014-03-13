@@ -1,0 +1,327 @@
+/*
+Theme Name: Modern Cyberlaw Clinic Variant
+Description: A variant of the Cyberlaw Clinic theme - child theme of twentyten 
+Author: jclark
+Template: twentyten
+*/
+
+@import url("../twentyten/style.css");
+@import url("bjqs.css");
+
+/**** General Stuff ****/
+body {
+	background-color: #F2F2F2;
+	font-family: "Open Sans";
+    font-size: 13px;
+    color: #333;
+    overflow-y: scroll;
+}
+.entry-title, #site-title, #site-info {
+	font-family: "Raleway";
+}
+h1, h2, h3, h4, h5, h6, h3.widget-title {
+	font-family: "Open Sans Condensed";
+}
+h2.entry-title {
+  font-family: "Open Sans";
+}
+#header {
+    padding-top: 17px;
+}
+#branding img {
+    border-width: 0;
+}
+#site-title, #site-title a, #content .entry-title, #site-description {
+	color: #333;
+}
+#site-title {
+	font-size: 55px;
+	line-height: 65px;
+	float: none;
+	width: auto;
+}
+#site-title a {
+    font-weight: normal;
+}
+#site-description {
+	width: 400px;
+    font-size: 14px;
+	float: none;
+}
+#wrapper {
+	border: 2px solid #BBB;
+    margin-bottom: 20px;
+}
+#container.one-column #content {
+	width: auto;
+	margin: 0 40px;
+}
+#content .entry-title, #primary .widget-title {
+    font-size: 24px;
+	line-height: 28px;
+    font-weight: normal;
+	border-bottom: 1px dotted #BBB;
+  margin-bottom: 0.7em;
+}
+body.single #content .entry-title {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+#content .entry-title {
+    font-size: 30px;
+    line-height: 36px;
+}
+.entry-content ul, .entry-content ol {
+	margin-left: 40px;
+}
+
+#access {
+    background: #444;
+    margin-top: 6px;
+}
+#access a {
+    font-size: 1.3em;
+}
+#access #menu-primary > li > a {
+    color: #CCC;
+}
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+    background-color: #333;
+}
+
+
+/**** Featured ****/
+ul.featured {
+    margin: 0;
+}
+ol.bjqs-markers li a, ul.bjqs-controls li a {
+    font-size: 5em;
+    text-decoration: none;
+    color: #999;
+}
+ul.bjqs-controls li a {
+    font-size: 3em;
+    font-family: Arial;
+    color: #888;
+}
+ul.bjqs-controls li a:hover {
+    color: #333
+}
+ul.bjqs-controls, ol.bjqs-markers {
+    margin: 0;
+}
+ol.bjqs-markers {
+    margin-top: -0.5em;
+}
+ul.bjqs-controls {
+    margin-top: -3.5em;
+}
+ul.bjqs-controls li {
+    display: inline-block;
+    width: 50%;
+}
+.bjqs-next {
+    text-align: right;
+}
+ol.bjqs-markers li.active-marker a {
+    color: #333;
+}
+
+/**** Nav Stuff ****/
+#menu-navigation {
+	display: none;
+}
+
+ul.children {
+	max-height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#access .menu-header, div.menu {
+    font-size: 12px;
+}
+
+
+/**** Widget Stuff ****/
+h3.widget-title {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.widget-area ul ul {
+	list-style-type: none;
+}
+.widget-area ul ul li {
+	margin-bottom: 10px;
+}
+.widget-title .rsswidget img {
+	display: none;
+}
+#rss3.widget-container {
+	margin-bottom: 5px;
+}
+.widget_rss a.rsswidget {
+    color: #333;
+}
+#primary {
+	width: 240px;
+}
+#secondary {
+	float: none;
+	clear: none;
+	width: 100%;
+	overflow-x: auto;
+}
+.textwidget {
+	text-align: center;
+}
+
+
+/**** Staff Stuff ****/
+#content div.staff h3 {
+	margin-bottom: 10px;
+}
+#content div.staff {
+	margin-bottom: 10px;
+}
+
+/**** Footer ****/
+#colophon a {
+	font-size: 13px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: #444;
+}
+#colophon {
+	padding-top: 10px;
+	border-top: 2px solid #333;
+}
+#footer {
+	margin: 15px 0 0 0;
+}
+#site-generator {
+	display: none;
+}
+#site-info {
+    font-weight: normal;
+	float: right;
+	width: auto;
+}
+#berkman-footer-links {
+    display: none;
+}
+#fullwidth-footer {
+    font-size: 11px;
+    margin: 0;
+}
+#fullwidth-footer a {
+    font-size: 11px;
+    margin: 0;
+}
+#fullwidth-footer li {
+    list-style-type: none;
+}
+#fullwidth-footer hr {
+    margin-bottom: 6px;
+}
+
+/**** Front Page ****/
+#content h3.featured-entry-title a {
+    text-decoration: none;
+    color: black;
+}
+#content h3.featured-entry-title a:hover {
+    color: #999;
+}
+#content h3.ui-state-active {
+    border-width: 1px 1px 0;
+}
+#content .featured-entry p {
+    margin-bottom: 0;
+}
+.featured-entry {
+    border: 1px solid #CCC;
+    border-width: 0 1px 1px 1px;
+    padding: 20px;
+}
+.featured-entry-type {
+    font-style: italic;
+}
+.featured-entry img {
+    border: 1px solid #CCC;
+}
+.ui-icon-triangle-1-s, .ui-icon-triangle-1-e {
+    width: 20px;
+    height: 28px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-right: -18px;
+}
+.ui-icon-triangle-1-s {
+    background-image: url('images/minus_8x2.png');
+}
+.ui-icon-triangle-1-e {
+    background-image: url('images/plus_8x8.png');
+}
+
+/**** Gravity Forms ****/
+.entry-content .gform_wrapper input, .entry-content .gform_wrapper select {
+    margin: 0;
+}
+#content .gform_title {
+    font-size: 100%;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #333;
+}
+#content .gform_heading, #content .gfield_html_formatted {
+    text-align: justify;
+}
+
+/**** Custom Entries ****/
+#content .custom-entry, body.blog #content .post.type-post {
+    border: 1px solid #DBDBDB;
+    border-width: 1px 0px 0px 1px;
+    padding: 5px 20px 5px;
+    margin-bottom: 32px;
+}
+#content .custom-entry-title, body.blog #content h2.entry-title {
+    border-bottom: 1px solid #eee;
+    font-size: 1.17em;
+    line-height: 1.5em;
+    padding-right: 30px;
+}
+body.blog #content h1.entry-title {
+    margin-bottom: 12px;
+}
+#content .custom-entry-title a, body.blog #content h2.entry-title a {
+    color: black;
+    text-decoration: none;
+}
+#content .custom-entry-title a:hover, body.blog #content h2.entry-title a:hover {
+    color: #777;
+}
+#content .custom-entry p, body.blog #content .post.type-post p {
+    margin-bottom: 0;
+    padding-right: 30px;
+}
+#content .custom-entry-excerpt {
+    text-align: justify;
+}
+#content .more-link {
+    margin-left: 0.4em;
+}
+#content .entry-meta {
+    margin-top: 0.1em;
+}
+#content .entry-utility {
+    margin-top: 1em;
+}
+#content .custom-entry.amicus_brief img, #content .custom-entry.publication img, #content .custom-entry.filing img {
+    border: 1px solid #EEE;
+}
